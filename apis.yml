@@ -1,7 +1,28 @@
 aid: taskty
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taskty.png
 name: Taskty
-description: Taskty is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Taskty (تاسكتى) is an Egypt-based online marketplace for on-demand home
+  services, connecting customers with vetted service providers for residential
+  cleaning, furniture and upholstery care, eco-friendly pest control, and home
+  maintenance including plumbing, electrical, painting, carpentry, marble,
+  aluminum, and air-conditioning work. The platform is delivered primarily
+  through consumer iOS and Android mobile apps plus a web presence, with
+  booking, dispatch, and WhatsApp/phone support. Surfaced as a portfolio company
+  of 500 Global and added to the API Evangelist network. As of this enrichment
+  pass Taskty publishes no public developer portal, API documentation, or
+  machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/taskty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Home Services
+- Marketplace
+- On-Demand
+- Cleaning
+- Maintenance
+- Egypt
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,10 @@ maintainers:
 common:
 - type: Website
   url: https://taskty.com
+- type: DomainSecurity
+  url: security/taskty-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
